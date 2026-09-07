@@ -1,1 +1,1 @@
-Add certificate PDFs here.
+Add internship offer-letter PDFs here.
