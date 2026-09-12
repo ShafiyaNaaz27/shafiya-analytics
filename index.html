@@ -15,7 +15,28 @@ nav{position:sticky;top:0;z-index:5;background:#08070dcc;backdrop-filter:blur(18
 .section{padding:105px 0;border-top:1px solid #fff1}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:42px}.k{font:500 11px "DM Mono";color:var(--v);letter-spacing:.15em;text-transform:uppercase}.section h2{font-size:clamp(35px,5vw,58px);line-height:1;letter-spacing:-.055em;margin:10px 0 0}.head p{max-width:420px;color:var(--m);margin:0}.about{display:grid;grid-template-columns:1fr 1fr;gap:50px}.about p{color:#b9b3c5;font-size:18px}.skills{display:flex;flex-wrap:wrap;gap:10px;align-content:start}.skill{border:1px solid var(--l);padding:10px 13px;border-radius:999px;color:#d6d0e0;font:500 12px "DM Mono"}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,#14121e,#0d0c13);border:1px solid var(--l);border-radius:22px;padding:25px;min-height:260px;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#8c70ff66}.num{font:500 12px "DM Mono";color:#777084}.card h3{font-size:23px;letter-spacing:-.03em;margin:35px 0 10px}.card p{color:var(--m);font-size:14px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:22px}.tag{font:500 10px "DM Mono";padding:6px 8px;border:1px solid #fff2;border-radius:8px;color:#aaa4b5}
 .role{display:grid;grid-template-columns:180px 1fr;gap:35px;padding:25px 0;border-bottom:1px solid var(--l)}.date{font:500 11px "DM Mono";color:#7f788e}.role h3{margin:0 0 4px;font-size:21px}.role p{margin:0;color:var(--m)}.docs{display:grid;grid-template-columns:1fr 1fr;gap:18px}.doc{border:1px solid var(--l);border-radius:20px;padding:23px;background:#0f0e16;display:flex;justify-content:space-between;gap:20px;align-items:center}.doc strong{display:block}.doc small{color:var(--m)}.doc a{font:500 11px "DM Mono";color:var(--c);white-space:nowrap}
-.contact{padding:130px 0;text-align:center}.contact h2{font-size:clamp(45px,8vw,90px);line-height:.9;letter-spacing:-.07em;margin:15px 0}.contact p{color:var(--m);max-width:580px;margin:25px auto}.foot{border-top:1px solid var(--l);padding:25px 0;color:#777084;font:500 11px "DM Mono";display:flex;justify-content:space-between} 
+.experience-docs{
+  display:flex;
+  gap:18px;
+  margin-top:14px;
+  flex-wrap:wrap;
+}
+
+.experience-docs a{
+  font:500 11px "DM Mono";
+  color:var(--c);
+  border:1px solid #fff2;
+  padding:8px 11px;
+  border-radius:8px;
+  transition:.25s;
+}
+
+.experience-docs a:hover{
+  color:white;
+  border-color:var(--v);
+  background:#9b7cff12;
+}
+  .contact{padding:130px 0;text-align:center}.contact h2{font-size:clamp(45px,8vw,90px);line-height:.9;letter-spacing:-.07em;margin:15px 0}.contact p{color:var(--m);max-width:580px;margin:25px auto}.foot{border-top:1px solid var(--l);padding:25px 0;color:#777084;font:500 11px "DM Mono";display:flex;justify-content:space-between} 
 
 @media(max-width:850px){.hero,.about{grid-template-columns:1fr}.hero{padding:65px 0}.visual{height:380px}.cards,.docs{grid-template-columns:1fr}.role{grid-template-columns:1fr;gap:8px}.links{display:none}.head{display:block}.head p{margin-top:18px}}
   
@@ -30,7 +51,94 @@ I fuse Python/SQL precision with Power BI storytelling to deliver boardroom-read
 <section class="section"><div class="wrap"><div class="head"><div><div class="k">02 — Now</div><h2>Learning. Building.<br>Moving forward.</h2></div><p>Growing from analyst to data professional through hands-on projects, internships, and continuous learning.</p></div><div class="cards"><article class="card"><span class="num">01</span><h3>Advanced Analytics</h3><p>Deepening Python, SQL, Power BI, and business-focused analysis.</p></article><article class="card"><span class="num">02</span><h3>AI-assisted Analysis</h3><p>Exploring how AI can accelerate analysis, insight discovery, and decision support.</p></article><article class="card"><span class="num">03</span><h3>Modern Data Stack</h3><p>Building knowledge around Snowflake, ETL, data warehousing, and scalable workflows.</p></article></div></div></section>
 <section class="section" id="work"><div class="wrap"><div class="head"><div><div class="k">03 — Selected work</div><h2>Projects with a<br>purpose.</h2></div><p>A selection of analytical projects spanning healthcare, retail, and data warehousing.</p></div><div class="cards"><article class="card"><span class="num">01 / HEALTHCARE</span><h3>Healthcare Data Analytics</h3><p>End-to-end workflow from Python cleaning and feature engineering to PostgreSQL analysis and a Power BI dashboard.</p><div class="tags"><span class="tag">Python</span><span class="tag">PostgreSQL</span><span class="tag">Power BI</span></div></article><article class="card"><span class="num">02 / RETAIL</span><h3>Retail Sales & RFM</h3><p>Customer segmentation and retail performance analysis using SQL, Python, and Tableau to surface actionable patterns.</p><div class="tags"><span class="tag">SQL</span><span class="tag">Python</span><span class="tag">Tableau</span></div></article><article class="card"><span class="num">03 / DATA ENGINEERING</span><h3>SQL Data Warehouse</h3><p>A structured warehouse project using SSMS and Bronze, Silver, and Gold layers to organize analytical data.</p><div class="tags"><span class="tag">SSMS</span><span class="tag">SQL</span><span class="tag">ETL</span></div></article></div></div></section>
 <section class="section" id="experience"><div class="wrap"><div class="head"><div><div class="k">04 — Experience</div><h2>Where I’m<br>putting it into practice.</h2></div></div><div class="role"><div class="date">2026 — PRESENT</div><div><h3>BharatCares × IBM SkillsBuild</h3><p>Data Analysis with AI · Internship</p></div></div><div class="role"><div class="date">2026</div><div><h3>InAmigos Foundation</h3><p>Data Analyst Intern · Data collection, analysis, and social-impact research</p></div></div></div></section>
-<section class="section" id="credentials"><div class="wrap"><div class="head"><div><div class="k">05 — Credentials</div><h2>Proof of<br>the journey.</h2></div><p>Certificates and internship documents can be opened directly from the portfolio.</p></div><div class="docs"><div class="doc"><div><strong>InAmigos Foundation — Data Analytics Internship</strong><small>Certificate</small></div><a href="assets/certificates/Shafiya%20Naaz.pdf" target="_blank">VIEW ↗</a></div><div class="doc"><div><strong>More certificates</strong><small>Add PDFs to assets/certificates/</small></div><span>+</span></div><div class="doc"><div><strong>Internship offer letters</strong><small>Add documents to assets/offer-letters/</small></div><span>+</span></div><div class="doc"><div><strong>Resume</strong><small>Replace assets/resume.pdf with your latest resume.</small></div><a href="assets/resume.pdf">VIEW ↗</a></div></div></div></section>
+
+  <section class="section" id="experience">
+  <div class="wrap">
+
+    <div class="head">
+      <div>
+        <div class="k">04 — Experience</div>
+        <h2>Where I’m<br>putting it into practice.</h2>
+      </div>
+    </div>
+
+
+    <!-- IBM EXPERIENCE -->
+    <div class="role">
+
+      <div class="date">
+        2026 — PRESENT
+      </div>
+
+      <div>
+        <h3>BharatCares × IBM SkillsBuild</h3>
+
+        <p>
+          Data Analysis with AI · Internship
+        </p>
+
+        <div class="experience-docs">
+
+          <a
+            href="assets/experience/ibm-offer-letter.pdf"
+            target="_blank"
+          >
+            OFFER LETTER ↗
+          </a>
+
+          <a
+            href="assets/experience/ibm-completion-letter.pdf"
+            target="_blank"
+          >
+            COMPLETION LETTER ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- INAMIGOS EXPERIENCE -->
+    <div class="role">
+
+      <div class="date">
+        2026
+      </div>
+
+      <div>
+        <h3>InAmigos Foundation</h3>
+
+        <p>
+          Data Analyst Intern · Data collection, analysis, and social-impact research
+        </p>
+
+        <div class="experience-docs">
+
+          <a
+            href="assets/experience/inamigos-offer-letter.pdf"
+            target="_blank"
+          >
+            OFFER LETTER ↗
+          </a>
+
+          <a
+            href="assets/experience/inamigos-completion-letter.pdf"
+            target="_blank"
+          >
+            COMPLETION LETTER ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <section class="section" id="credentials"><div class="wrap"><div class="head"><div><div class="k">05 — Credentials</div><h2>Proof of<br>the journey.</h2></div><p>Certificates and internship documents can be opened directly from the portfolio.</p></div><div class="docs"><div class="doc"><div><strong>InAmigos Foundation — Data Analytics Internship</strong><small>Certificate</small></div><a href="assets/certificates/Shafiya%20Naaz.pdf" target="_blank">VIEW ↗</a></div><div class="doc"><div><strong>More certificates</strong><small>Add PDFs to assets/certificates/</small></div><span>+</span></div><div class="doc"><div><strong>Internship offer letters</strong><small>Add documents to assets/offer-letters/</small></div><span>+</span></div><div class="doc"><div><strong>Resume</strong><small>Replace assets/resume.pdf with your latest resume.</small></div><a href="assets/resume.pdf">VIEW ↗</a></div></div></div></section>
 <section class="contact" id="contact"><div class="wrap"><div class="k">06 — Contact</div><h2>Let’s make<br><span class="grad">data do more.</span></h2><p>Open to entry-level Data Analyst, BI Analyst, and related opportunities.</p><div class="actions" style="justify-content:center"><a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Get in touch</a><a class="btn" href="https://github.com/ShafiyaNaaz27" target="_blank">View GitHub</a></div></div></section>
 </main><footer><div class="wrap foot"><span>© 2026 Shafiya Naaz</span><span>BUILT WITH DATA + CURIOSITY</span></div></footer>
 </body></html>
