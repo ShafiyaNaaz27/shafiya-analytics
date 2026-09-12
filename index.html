@@ -83,8 +83,157 @@ nav{position:sticky;top:0;z-index:5;background:#08070dcc;backdrop-filter:blur(18
 
 .contact{padding:130px 0;text-align:center}.contact h2{font-size:clamp(45px,8vw,90px);line-height:.9;letter-spacing:-.07em;margin:15px 0}.contact p{color:var(--m);max-width:580px;margin:25px auto}.foot{border-top:1px solid var(--l);padding:25px 0;color:#777084;font:500 11px "DM Mono";display:flex;justify-content:space-between} 
 
-@media(max-width:850px){.hero,.about{grid-template-columns:1fr}.hero{padding:65px 0}.visual{height:380px}.cards,.docs{grid-template-columns:1fr}.role{grid-template-columns:1fr;gap:8px}.links{display:none}.head{display:block}.head p{margin-top:18px}}
-  
+
+  @media(max-width:850px){
+
+  /* ===== MOBILE LAYOUT ===== */
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .wrap{
+    width:100%;
+    max-width:100%;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  /* HERO */
+
+  .hero{
+    width:100%;
+    min-height:auto;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:45px;
+    padding:65px 20px 70px;
+  }
+
+  .hero-content{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+  }
+
+  .hero h1{
+    font-size:clamp(44px,14vw,64px);
+    line-height:.94;
+    letter-spacing:-.065em;
+    margin:18px 0 22px;
+    max-width:100%;
+  }
+
+  .hero p{
+    width:100%;
+    max-width:100%;
+    font-size:15px;
+    line-height:1.7;
+  }
+
+  .ey{
+    font-size:10px;
+    letter-spacing:.12em;
+    white-space:normal;
+  }
+
+  .actions{
+    gap:10px;
+  }
+
+  .btn{
+    padding:12px 15px;
+    font-size:13px;
+  }
+
+  .social{
+    gap:16px;
+    font-size:10px;
+  }
+
+
+  /* HERO VISUAL */
+
+  .hero .visual{
+    width:100%;
+    height:330px;
+    min-width:0;
+  }
+
+  .grid{
+    inset:25px;
+    background-size:32px 32px;
+  }
+
+  .chart{
+    left:30px;
+    right:30px;
+    bottom:50px;
+    height:150px;
+    gap:10px;
+  }
+
+  .chip{
+    font-size:10px;
+    padding:7px 9px;
+  }
+
+  .a{
+    top:45px;
+    left:25px;
+  }
+
+  .b{
+    top:70px;
+    right:20px;
+  }
+
+  .d{
+    bottom:20px;
+    left:20px;
+  }
+
+
+  /* OTHER SECTIONS */
+
+  .about{
+    grid-template-columns:1fr;
+    gap:30px;
+  }
+
+  .about p{
+    font-size:16px;
+  }
+
+  .cards,
+  .docs{
+    grid-template-columns:1fr;
+  }
+
+  .role{
+    grid-template-columns:1fr;
+    gap:8px;
+  }
+
+  .links{
+    display:none;
+  }
+
+  .head{
+    display:block;
+  }
+
+  .head p{
+    margin-top:18px;
+  }
+
+  .section{
+    padding:75px 0;
+  }
+
+}
 </style></head>
 <body>
 <nav><div class="wrap nav"><a class="logo" href="#">SN<span>.</span></a><div class="links"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></div></div></nav>
